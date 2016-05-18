@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/websocket-echo-deflate",
+	"GoVersion": "go1.4",
+	"GodepVersion": "v69",
+	"Deps": [
+		{
+			"ImportPath": "github.com/euforia/websocket",
+			"Rev": "f747c3f35c926ea0678bf40612a0b550116fa72a"
+		}
+	]
+}
