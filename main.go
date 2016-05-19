@@ -23,7 +23,7 @@ var upgrader = websocket.Upgrader{
 		fmt.Printf("%q\n\n", dump)
 		return true
 	},
-	//Extensions: []string{websocket.CompressPermessageDeflate},
+	Extensions: []string{websocket.CompressPermessageDeflate},
 }
 
 func echo(w http.ResponseWriter, r *http.Request) {
